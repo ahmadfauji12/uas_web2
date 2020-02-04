@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:rgb(48, 138, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  #dedede;
+  }
+  a {
+    text-decoration: none;
+  }
+  .well
+  {
+     padding: 35px;
+     padding-left: 30px;
+     box-shadow: 0 0 10px #666666;
+     margin: 4% auto 0;
+     width: 450px;
+  }
+
+  .input-group-addon
+  {
+    background-color: #ffde6c;
+    color: #d17d00;
+  }
+
+  .adminlogin{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:rgba(1, 16, 110,0.8);
+    text-align: center;
+    border-radius: 25px;
+  }
+  .adminlogin h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .adminlogin input[type = "text"],.adminlogin input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .adminlogin input[type = "text"]:focus,.adminlogin input[type = "password"]:focus{
+    width: 280px;
+    border-color: #8c00ff;
+  }
+  .adminlogin input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .adminlogin input[type = "submit"]:hover{
+    background: #2ecc71;
+  }
+  #signup {
+    color: #2dbd6e;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+  }
+  table{
+    width:100%;
+}
+#example_filter{
+    float:right;
+}
+#example_paginate{
+    float:right;
+}
+label {
+    display: inline-flex;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+   
+}
+.circle-tile {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.circle-tile-heading {
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  color: #FFFFFF;
+  height: 80px;
+  margin: 0 auto -40px;
+  position: relative;
+  transition: all 0.3s ease-in-out 0s;
+  width: 80px;
+}
+.circle-tile-heading .fa {
+  line-height: 80px;
+}
+.circle-tile-content {
+  padding-top: 50px;
+}
+.circle-tile-number {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 5px 0 15px;
+}
+.circle-tile-description {
+  text-transform: uppercase;
+}
+.circle-tile-footer {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  padding: 5px;
+  transition: all 0.3s ease-in-out 0s;
+}
+.circle-tile-footer:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+.circle-tile-heading.dark-blue:hover {
+  background-color: #2E4154;
+}
+.circle-tile-heading.green:hover {
+  background-color: #138F77;
+}
+.circle-tile-heading.orange:hover {
+  background-color: #DA8C10;
+}
+.circle-tile-heading.blue:hover {
+  background-color: #2473A6;
+}
+.circle-tile-heading.red:hover {
+  background-color: #CF4435;
+}
+.circle-tile-heading.purple:hover {
+  background-color: #7F3D9B;
+}
+.tile-img {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.9);
+}
+
+.dark-blue {
+  background-color: #34495E;
+}
+.green {
+  background-color: #16A085;
+}
+.blue {
+  background-color: #2980B9;
+}
+.orange {
+  background-color: #F39C12;
+}
+.red {
+  background-color: #E74C3C;
+}
+.purple {
+  background-color: #8E44AD;
+}
+.dark-gray {
+  background-color: #7F8C8D;
+}
+.gray {
+  background-color: #95A5A6;
+}
+.light-gray {
+  background-color: #BDC3C7;
+}
+.yellow {
+  background-color: #F1C40F;
+}
+.text-dark-blue {
+  color: #34495E;
+}
+.text-green {
+  color: #16A085;
+}
+.text-blue {
+  color: #2980B9;
+}
+.text-orange {
+  color: #F39C12;
+}
+.text-red {
+  color: #E74C3C;
+}
+.text-purple {
+  color: #8E44AD;
+}
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+.margin{
+  margin-left: 80px;
+}
+
