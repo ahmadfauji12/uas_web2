@@ -7,6 +7,9 @@ class mhs extends CI_Controller {
 		parent::__construct();
 		$this->load->database();
 		$this->load->model('admin');
+		if(!$this->session->userdata('npm')){
+			redirect('login');
+		}
 	}
 	/**
 	 * Index Page for this controller.

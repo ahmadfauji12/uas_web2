@@ -1,6 +1,6 @@
 <div class="adminlogin">
 <?= $this->session->flashdata('pesan')?>
-<form action="<?= base_url('Myadmin/login');?>" method="post">
+<form action="<?= base_url('login');?>" method="post">
   <h1>Login</h1>
   <input type="text" name="npm" placeholder="NPM">
   <small class="text-danger"><?= form_error('npm') ?> </small>

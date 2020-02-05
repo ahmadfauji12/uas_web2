@@ -8,6 +8,10 @@ class Myadmin extends CI_Controller {
 		$this->load->library('form_validation');
 		$this->load->database();
 		$this->load->model('admin');
+
+		if(!$this->session->userdata('npm')){
+			redirect('login');
+		}
 	}
 	public function index()
 	{
